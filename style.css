@@ -78,8 +78,6 @@ section h2 + p {
     text-indent: 2rem;
 }
 
-/* Links */
-
 a:link, a:visited, a:hover, a:focus {
     color: #8b4513;
 }
@@ -99,6 +97,7 @@ a:active {
     color: white;
     background-color: #8b4513;
 }
+
 a[href^="http"] {
     background: url("external-link-52.png") no-repeat right center;
     background-size: 12px;
@@ -122,7 +121,7 @@ ol {
     list-style-type: upper-roman;
 }
 
-/* Navigation Menu */
+//Navigation menu
 
 nav ul {
     list-style-type: none;
